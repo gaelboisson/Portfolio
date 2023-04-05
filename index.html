@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="./public/css/Portfolio_accueil.css"/>
+  <link rel="stylesheet" href="./public/css/dropdown.css"/>
+  <script src="./public/js/dropdown.js"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <title>Portfolio - accueil</title>
+</head>
+<body>
+
+    <!-- barre de navigation -->
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="60">
+
+  
+    <nav class="navbar">
+      <ul class="navbar-header">
+        <li class="new_item"><a href="#accueil">Accueil</a></li>
+        <li class="new_item"><a href="#bts">Le BTS SIO</a></li>
+        <li class="new_item"><a href="#parcours">Mon parcours</a></li>
+        <li class="new_item"><a href="#skills">Mes compétences</a></li>
+        <!-- <li class="new_item"><a href="#synth">Tableau de synthèse</a></li> -->
+        <li class="new_item"><a href="#projets">Projets et veilles</a></li>
+      </ul>
+    </nav>
+  
+
+  <!-- <body data-spy="scroll" data-target=".navbar" data-offset="60">
+            
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar">
+                <ul class="navbar-header">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#bts">Le BTS SIO</a></li>
+                    <li><a href="#parcours">Mon parcours</a></li>
+                    <li><a href="#skills">Mes compétences</a></li>
+                    <li><a href="#projets">Projets et veilles</a></li>
+                </ul>
+            </div>
+        
+        </div>
+    
+    </nav> -->
+
+    <!-- Accueil -->
+    <section class="block">
+    <div class="container">
+      <h1 id="accueil"></h1>
+      
+      <div class="accueil">
+        <div class="heading">
+          <div class="row align-items-center">
+            <div class="col">
+              <h1>Bonjour et bienvenue sur mon Portfolio</h1>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <a href="./public/doc/BOISSON_Gaël_cv.pdf" target="_blank">
+                <button id="cv">
+                  Mon CV
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="block_reseaux">
+            <a class="reseaux" href="https://www.linkedin.com/in/ga%C3%ABl-boisson/" target="_blank"><img src="./public/img/linkedin.jpg" alt="Mon linkedIn"/></a>
+            <a class="reseaux" href="https://github.com/gaelboisson" target="_blank"><img src="./public/img/github.jpg" alt="Mon GitHub"/></a>
+          </div>
+
+          <div class="row">
+            <div class="qui">
+              <h3>Qui suis-je ?</h3>
+              <p> 
+                Je m'appel Gaël Boisson et je suis actuellement étudiant en deuxième année de BTS 
+                SIO option SLAM à Paris. Je me suis découvert un attrait pour la programmation
+                au cours de mes études supérieures ce qui m'a conduit à devenir développeur.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </section>
+    <!-- présentation du bts -->
+    <section class="block">
+      <div class="container">
+        <h1 id="bts"></h1>
+        <p class="new_item" id="bts"></p>
+
+        <section class="info">
+        <div class="prs_bts">
+          <div class="sio">
+            <div class="row">
+              <div class="col-sm-12">
+                <h1>Le BTS SIO</h1>
+                <p>
+                  Le BTS Services Informatiques aux Organisations s’adresse à 
+                  ceux qui souhaite se former dans le domaine de l’informatique. 
+                  Il permet d’intégrer le marché du travail en tant qu’administrateur 
+                  réseau ou développeur, ou de poursuivre ses études dans ces domaines.
+                  Il se divise en deux options : 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+      
+        <div class="presentation_bts">
+              <div class="cardPresentation">
+                <h2>Option SISR</h2>
+                <p>
+                    L’option SISR (Solutions d’Infrastructure, Systèmes et Réseaux)
+                    est destinée aux étudiants qui s’orientent vers 
+                    les métiers liés à la conception et la maintenance d’infrastructures réseaux. 
+                    Assurer la sécurité, la maintenance et l’installation des réseaux et des 
+                    équipements informatiques font partie des principales missions des futurs administrateurs, 
+                    techniciens ou pilotes d’exploitation.
+                </p>
+              </div>
+              <div class="cardPresentation">
+                <h2>Option SLAM</h2>
+                <p>
+                  L'option SLAM (Solutions Logicielles et Applications Métier) 
+                  est destinée aux étudiants qui s’orientent vers les métiers 
+                  liés à la conception et la maintenance de programmes applicatifs. 
+                  Grâce à des cours spécifiques, les diplômés seront capables de 
+                  gérer un parc informatique ou d’administrer un réseau au sein d’une entreprise.
+                  Ils pourront également gérer l’intégration, la sécurisation et 
+                  la configuration des serveurs, mais aussi des postes clients et des équipements d’interconnexion.
+                </p>
+              </div>
+              <div class="cardPresentation">
+                <h2>Cybersécurité</h2>
+                <p>
+                  Le fonctionnement de la Cybersécurité consiste à créer 
+                  quelque chose de sécurisé que se soit pour les SLAM, 
+                  un programme sécurisé ou un site web sécurisé ou encore pour les SISR, 
+                  une infrastructure sécurisée contre les attaques informatique.
+                </p>
+              </div>
+            </div>
+      </div>
+    </section>
+    
+    <!-- Description du parcours -->
+
+    <section class="block"  id="parcours">
+        
+      <div class="container">
+          <div class="white-divider"></div>
+          <div class="heading">
+              <h2>Mon parcours</h2>
+          </div>
+          <ul class="timeline">
+              <li>
+                  <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                  <div class="timeline-panel-container">
+                      <div class="timeline-panel">
+                          <div class="timeline-heading">
+                              <h3>Maarch (alternance)</h3>
+                              <h4>Technicien de support</h4>
+                              <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 2022-2023</p>
+                          </div>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                  <div class="timeline-panel-container-inverted">
+                      <div class="timeline-panel">
+                          <div class="timeline-heading">
+                              <h4>BTS SIO option SLAM</h4>
+                              <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 2021-2023</p>
+                          </div>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                  <div class="timeline-panel-container">
+                      <div class="timeline-panel">
+                          <div class="timeline-heading">
+                              <h3>Cultura</h3>
+                              <h4>Opérateur logistique</h4>
+                              <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 2020-2021</p>
+                          </div>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="timeline-badge"><span class="glyphicon glyphicon-briefcase"></span></div>
+                  <div class="timeline-panel-container-inverted">
+                      <div class="timeline-panel">
+                          <div class="timeline-heading">
+                              <h4>Bac scientifique</h4>
+                              <p class="text-muted"><small class="glyphicon glyphicon-time"></small> 2018-2019</p>
+                          </div>
+                      </div>
+                  </div>
+              </li>
+          
+          </ul>
+      </div>
+      
+  </section>
+
+    <p class="new_item" id="skills"></p>
+    
+    <!-- Compétences -->
+  <!-- <section class="block">
+    <h1 id="skills"></h1>
+    <div class="container">
+      <div class="row">
+        <h1>Mes compétences</h1>
+      </div>
+        <p>HTML/CSS</p>
+        <div class="progressbar-longueur">
+            <div class="progressbar html">70%</div>
+        </div>
+
+        <p>C#</p>
+        <div class="progressbar-longueur">
+            <div class="progressbar Csharp">60%</div>
+        </div>
+
+        <p>JavaScript</p>
+        <div class="progressbar-longueur">
+            <div class="progressbar JavaScript">60%</div>
+        </div>
+
+        <p>MySQL</p>
+        <div class="progressbar-longueur">
+            <div class="progressbar sql">60%</div>
+        </div>
+
+        <p>Python</p>
+        <div class="progressbar-longueur">
+            <div class="progressbar python">50%</div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <a href="./public/doc/Annexe 6-1 - Tableau de synthèse - Épreuve E4 - BTS SIO 2022.pdf" target="_blank">
+              <div id="tableau_synth">
+                Tableau de synthèse
+              </div>
+            </a>
+          </div>
+        </div>
+        
+    </div>
+    <div id="synth"></div>
+  </section> -->
+  
+  <section class="block">
+    <h1 id="skills"></h1>
+    <div class="block_skill">
+      <div class="container">
+        <div class="tab">
+          <h1>Mes compétences</h1>
+        </div>
+        <div class="presentation_bts">
+          <div class="skil">
+            <img src="./public/img/c_sharp.png"/>
+          </div>
+
+          <div class="skil">
+            <img src="./public/img/js.jpg"/>
+            <!-- <ul>
+              <li>Props</li>
+              <li>Routes</li>
+              <li>UsEffect</li>
+              <li>UseState</li>
+            </ul> -->
+          </div>
+
+          <div class="skil">
+            <img src="./public/img/MySQL.png"/>
+            <!-- <ul>
+              <li>Création de base de données</li>
+              <li>Création et modification de table</li>
+              <li>Requête de récupération</li>
+            </ul> -->
+          </div>
+
+          <div class="skil">
+            <img src="./public/img/PHP.png"/>
+            <!-- <ul>
+              <li>Expressions régulière</li>
+              <li>Générateur de mot de passe</li>
+              <li>Récupération de données</li>
+            </ul> -->
+          </div>
+
+          <div class="skil">
+            <img src="./public/img/Node.png"/>
+          </div>
+
+          <div class="skil">
+            <img src="./public/img/html-css.jpg"/>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div id="synth"></div>
+  </section>
+
+
+
+<!-- Tableau de synthèse -->
+  <section class="block">
+    <div class="container">
+      <div class="tab">
+      <h1>Tableau de synthèse</h1>
+
+      <a href="./public/doc/Annexe 6-1 - Tableau de synthèse - Épreuve E4 - BTS SIO 2022.pdf" target="_blank">
+        <button id="tableau_synth">
+          Visualiser
+        </button>
+      </a>
+      </div>
+      <br>
+      <div class="block_preuve">
+        <a href="./public/doc/documentation_vm.pdf" target="_blank">
+          <div id="vm">
+            <button class="buton">Installation d'une vm</button>
+          </div>
+        </a>
+        <a href="./public/doc/CertificatDaccomplissement_Lessentiel de C Unity pour le developpement de jeux video.pdf" target="_blank">
+          <div id="certif">
+            <button class="buton">Certification LinkedIn Learning</button>
+          </div>
+        </a>
+        <a href="./public/doc/docu_glpi.pdf" target="_blank">
+          <div id="glpi">
+            <button class="buton">Installation et utilisation de glpi</button>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+    
+
+    <!-- projets -->
+    <section class="block">
+    <div class="container">
+      <h1 id="projets"></h1>
+
+      <div class="row">
+        <div class="proj_et_veille">
+          <div id="balise-proj">
+            <p  class="new_item" id="projets"></p>
+          </div>
+          <h1 id="projets-header">Mes projets et veilles</h1>
+          <section id="projets">
+            <h4>Projets</h4>
+            <div class="block_proj">
+                
+                <div class="projet1">
+                  <a class="presentation" href="./public/doc/Presentation_projet_virtualisation.pdf" target="_blank">
+                    <ul><img src="./public/img/virtualization.jpg" alt="Projet virtualisation"/></ul>
+                  </a>
+                </div>
+                <div class="projet2">
+                  <a class="presentation">
+                    <a class="presentation" href="./public/doc/presentation_AP1.pdf" target="_blank">
+                      <img src="./public/img/logo.jpg" alt="AP 1"/>
+                    </a>
+                    <nav class="ap1">
+                      <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">Documents</button>
+                        <div id="myDropdown" class="dropdown-content">
+                          <a href="./public/AP1/devisM2L.pdf" target="_blank">Devis de l'entreprise</a>
+                          <a href="./public/AP1/facture.pdf" target="_blank">Facture de l'entreprise</a>
+                          <a href="./public/AP1/fiche_de_poste.pdf" target="_blank">Fiche de poste</a>
+                          <a href="./public/AP1/kbis.pdf" target="_blank">Kbis de l'entreprise</a>
+                        </div>
+                      </div>
+                    </nav>
+                  </a>
+                </div>
+                <div class="projet3">
+                  <a class="presentation" href="./public/doc/presentation_AP2.pdf" target="_blank">
+                    <nav class="ap2">
+                      <img src="./public/img/logo_m2l.jpg" alt="AP1"/>
+                    </nav>
+                  </a>
+                </div>
+                <div class="projet3">
+                  <a class="presentation" href="./public/doc/doc_utilisateur_ap3.pdf" target="_blank">
+                    <nav class="ap3">
+                      <img src="./public/img/doc_user.jpg" alt="doc user">
+                    </nav>
+                  </a>
+                </div>
+                  <div class="projet3">
+                  <a class="presentation" href="./public/doc/doc_technique_ap3.pdf" target="_blank">
+                    <nav class="ap3">
+                      <img src="./public/img/doc_technique.jpg" alt="doc user">
+                    </nav>
+                  </a>
+                </div>
+                  <div class="projet1">
+                    <a class="presentation" href="./public/doc/Doc_alternance.pdf" target="_blank">
+                      <ul><img src="./public/img/maarch.jpg" alt="Projet pro"/></ul>
+                    </a>
+                  </div>
+                </div>
+            </div>        
+
+    <!-- veilles -->
+
+            <h4 class="veille_titre">Veille technologique</h4>
+            <div class="block_proj">
+                <a class="projet3" href="./public/doc/presentation_metaverse.pdf" target="_blank">
+                    <div id="meta">
+                        <ul><img src="./public/img/metaverse.jpg" alt="Veille metaverse"/></ul>
+                    </div>
+                </a>
+                <a class="projet3" href="./public/doc/veille_unreal.pdf" target="_blank">
+                  <div id="unreal">
+                      <ul><img src="./public/img/unreal.png" alt="Veille Unreal Engine"/></ul>
+                  </div>
+              </a>
+            </div>
+        </section>
+        </div>
+      </div>
+    </div>
+    </section>
+</body>
+</html>
