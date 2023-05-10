@@ -204,13 +204,12 @@ body {
 /*----- projets et veilles -----*/
 
 .proj_et_veille {
-  
-  margin-top: 50px;
+  margin-top: 5px;
   background-color: #373538;
 }
 
 #balise-proj {
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 #projets-header {
